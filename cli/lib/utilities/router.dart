@@ -120,5 +120,3 @@ class Router {
     print('$numPassedTests/$numTotalTests test cases passed. $coveragePercentage% line coverage achieved.');
   }
 }
-
-Router();
