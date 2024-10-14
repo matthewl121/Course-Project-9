@@ -1,4 +1,4 @@
-import 'package:cli/lib/utilities/router.dart'; // ignore: uri_does_not_exist
+import 'package:cli/utilities/router.dart';
 
 void main(List<String> arguments) {
   Router().parseArguments(arguments);
