@@ -3,7 +3,6 @@
 .packages
 pubspec.lock
 build/
-dart-sdk/
 *.dart.js
 *.info.json
 *.js.deps
@@ -15,6 +14,7 @@ dart-sdk/
 
 # TypeScript-related
 node_modules/
+dart-sdk/
 dist/
 *.log
 *.tsbuildinfo
