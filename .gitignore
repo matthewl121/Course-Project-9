@@ -1,0 +1,34 @@
+# Dart-related
+.dart_tool/
+.packages
+pubspec.lock
+build/
+*.dart.js
+*.info.json
+*.js.deps
+*.js.map
+*.browser_test.dart
+*.browser_test.dart.js
+*.browser_test.dart.js.map
+*.browser_test.dart.js.deps
+
+# TypeScript-related
+node_modules/
+dist/
+*.log
+*.tsbuildinfo
+
+# General files to ignore
+.DS_Store
+.idea/
+.vscode/
+*.env
+.env.*
+output.NDJSON
+logs/
+system.log
+run
+
+# Ignore node_modules and package files
+package.json
+package-lock.json
