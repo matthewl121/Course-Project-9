@@ -3,6 +3,7 @@
 .packages
 pubspec.lock
 build/
+dart-sdk/
 *.dart.js
 *.info.json
 *.js.deps
