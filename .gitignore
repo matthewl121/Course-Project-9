@@ -28,7 +28,6 @@ dist/
 output.NDJSON
 logs/
 system.log
-run
 
 # Ignore node_modules and package files
 package.json
