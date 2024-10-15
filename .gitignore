@@ -11,10 +11,11 @@ build/
 *.browser_test.dart.js
 *.browser_test.dart.js.map
 *.browser_test.dart.js.deps
+*.zip
+dart-sdk/
 
 # TypeScript-related
 node_modules/
-dart-sdk/
 dist/
 *.log
 *.tsbuildinfo
