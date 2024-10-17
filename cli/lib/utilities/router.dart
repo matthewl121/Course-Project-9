@@ -3,10 +3,14 @@ import 'dart:convert';
 import 'install.dart'; 
 import 'url_file.dart';
 
-class Router {
+void router(args) {
+  RouterClass().parseArguments(args);
+}
+
+class RouterClass {
   late final List<String> _arguments;
 
-  Router();
+  RouterClass();
 
   void parseArguments(List<String> arguments) {
     _arguments = arguments;
