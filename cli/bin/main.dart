@@ -1,5 +1,5 @@
-import 'package:cli/utilities/router.dart';
+import '../lib/utilities/router.dart';
 
 void main(List<String> arguments) {
-  Router().parseArguments(arguments);
+  Router(arguments);
 }
