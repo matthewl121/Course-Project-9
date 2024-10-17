@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'install.dart'; 
 import 'url_file.dart';
 
-void router(args) {
+void run_router(args) {
   RouterClass().parseArguments(args);
 }
 
